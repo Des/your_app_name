@@ -1,0 +1,2714 @@
+checking for Ruby version >= 1.8.5... -------------------- yes
+
+--------------------
+
+find_executable: checking for cc... -------------------- yes
+
+--------------------
+
+find_executable: checking for Magick-config... -------------------- yes
+
+--------------------
+
+checking for ImageMagick version >= 6.3.5... -------------------- yes
+
+--------------------
+
+checking for HDRI disabled version of ImageMagick... -------------------- yes
+
+--------------------
+
+have_header: checking for stdint.h... -------------------- yes
+
+"cc -E -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <stdint.h>
+/* end */
+
+--------------------
+
+have_header: checking for sys/types.h... -------------------- yes
+
+"cc -E -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <sys/types.h>
+/* end */
+
+--------------------
+
+have_header: checking for wand/MagickWand.h... -------------------- yes
+
+"cc -E -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <wand/MagickWand.h>
+/* end */
+
+--------------------
+
+have_library: checking for InitializeMagick() in -lMagickCore... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))InitializeMagick; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for snprintf() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))snprintf; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for AcquireImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))AcquireImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for AffinityImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))AffinityImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for AffinityImages() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))AffinityImages; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for AutoGammaImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘AutoGammaImageChannel’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))AutoGammaImageChannel; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/cckFglbg.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `AutoGammaImageChannel'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { AutoGammaImageChannel(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for AutoLevelImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘AutoLevelImageChannel’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))AutoLevelImageChannel; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccsf8n6u.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `AutoLevelImageChannel'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { AutoLevelImageChannel(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for BlueShiftImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘BlueShiftImage’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))BlueShiftImage; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccy4ksUY.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `BlueShiftImage'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { BlueShiftImage(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for DeskewImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))DeskewImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for EncipherImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))EncipherImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for EqualizeImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))EqualizeImageChannel; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for FloodfillPaintImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))FloodfillPaintImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for FunctionImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘FunctionImageChannel’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))FunctionImageChannel; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccYFmGBx.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `FunctionImageChannel'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { FunctionImageChannel(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for GetAuthenticIndexQueue() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘GetAuthenticIndexQueue’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))GetAuthenticIndexQueue; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccyDcGa0.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `GetAuthenticIndexQueue'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { GetAuthenticIndexQueue(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for GetAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘GetAuthenticPixels’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))GetAuthenticPixels; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccyuEjDv.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `GetAuthenticPixels'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { GetAuthenticPixels(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for GetImageAlphaChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))GetImageAlphaChannel; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for GetVirtualPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘GetVirtualPixels’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))GetVirtualPixels; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/cc9Hmgno.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `GetVirtualPixels'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { GetVirtualPixels(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for LevelImageColors() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))LevelImageColors; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for LevelColorsImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘LevelColorsImageChannel’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))LevelColorsImageChannel; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/cc2ADRT4.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `LevelColorsImageChannel'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { LevelColorsImageChannel(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for LevelizeImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))LevelizeImageChannel; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for LiquidRescaleImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))LiquidRescaleImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for OpaquePaintImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))OpaquePaintImageChannel; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for QueueAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘QueueAuthenticPixels’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))QueueAuthenticPixels; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccq0sSAq.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `QueueAuthenticPixels'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { QueueAuthenticPixels(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for RemapImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))RemapImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for RemoveImageArtifact() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))RemoveImageArtifact; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for SelectiveBlurImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘SelectiveBlurImageChannel’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))SelectiveBlurImageChannel; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccEcfazJ.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `SelectiveBlurImageChannel'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { SelectiveBlurImageChannel(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for SetImageAlphaChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))SetImageAlphaChannel; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for SetImageArtifact() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))SetImageArtifact; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for SetMagickMemoryMethods() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))SetMagickMemoryMethods; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for SparseColorImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))SparseColorImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for SyncAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘SyncAuthenticPixels’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))SyncAuthenticPixels; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/ccQCVJBn.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `SyncAuthenticPixels'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { SyncAuthenticPixels(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for TransparentPaintImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))TransparentPaintImage; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for TransparentPaintImageChroma() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘TransparentPaintImageChroma’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { void ((*volatile p)()); p = (void ((*)()))TransparentPaintImageChroma; return 0; }
+/* end */
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+/tmp/cc097fja.o: In function `t':
+conftest.c:(.text+0x20): undefined reference to `TransparentPaintImageChroma'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int t() { TransparentPaintImageChroma(); return 0; }
+/* end */
+
+--------------------
+
+checking for QueryMagickColorname() new signature... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() {
+13:   MagickBooleanType okay;
+14:   Image *image;
+15:   MagickPixelPacket *color;
+16:   char *name;
+17:   ExceptionInfo *exception;
+18:   okay = QueryMagickColorname(image, color, SVGCompliance, name, exception);
+19:   return 0;
+20:   }
+/* end */
+
+--------------------
+
+have_struct_member: checking for Image.type in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int s = (char *)&((Image*)0)->type - (char *)0;
+/* end */
+
+--------------------
+
+have_struct_member: checking for DrawInfo.kerning in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c:13: error: ‘DrawInfo’ has no member named ‘kerning’
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int s = (char *)&((DrawInfo*)0)->kerning - (char *)0;
+/* end */
+
+--------------------
+
+have_struct_member: checking for DrawInfo.interline_spacing in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c:13: error: ‘DrawInfo’ has no member named ‘interline_spacing’
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int s = (char *)&((DrawInfo*)0)->interline_spacing - (char *)0;
+/* end */
+
+--------------------
+
+have_struct_member: checking for DrawInfo.interword_spacing in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c:13: error: ‘DrawInfo’ has no member named ‘interword_spacing’
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { return 0; }
+13: int s = (char *)&((DrawInfo*)0)->interword_spacing - (char *)0;
+/* end */
+
+--------------------
+
+have_type: checking for DitherMethod in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: typedef DitherMethod conftest_type;
+13: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+
+have_type: checking for MagickFunction in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘conftest_type’
+conftest.c:13: error: ‘conftest_type’ undeclared here (not in a function)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: typedef MagickFunction conftest_type;
+13: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+
+have_type: checking for ImageLayerMethod in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: typedef ImageLayerMethod conftest_type;
+13: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+
+have_type: checking for long double in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: typedef long double conftest_type;
+13: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+
+have_enum_value: checking for AlphaChannelType.CopyAlphaChannel... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { AlphaChannelType t = CopyAlphaChannel; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for AlphaChannelType.BackgroundAlphaChannel... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘BackgroundAlphaChannel’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { AlphaChannelType t = BackgroundAlphaChannel; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.BlurCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘BlurCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = BlurCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.DistortCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘DistortCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = DistortCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.LinearBurnCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘LinearBurnCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = LinearBurnCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.LinearDodgeCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘LinearDodgeCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = LinearDodgeCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.MathematicsCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘MathematicsCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = MathematicsCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.PegtopLightCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘PegtopLightCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = PegtopLightCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.PinLightCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘PinLightCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = PinLightCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompositeOperator.VividLightCompositeOp... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘VividLightCompositeOp’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompositeOperator t = VividLightCompositeOp; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.DXT1Compression... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = DXT1Compression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.DXT3Compression... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = DXT3Compression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.DXT5Compression... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = DXT5Compression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.ZipSCompression... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘ZipSCompression’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = ZipSCompression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.PizCompression... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘PizCompression’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = PizCompression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.Pxr24Compression... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘Pxr24Compression’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = Pxr24Compression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.B44Compression... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘B44Compression’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = B44Compression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for CompressionType.B44ACompression... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘B44ACompression’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { CompressionType t = B44ACompression; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.BarrelDistortion... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = BarrelDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.BarrelInverseDistortion... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = BarrelInverseDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.BilinearForwardDistortion... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘BilinearForwardDistortion’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = BilinearForwardDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.BilinearReverseDistortion... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘BilinearReverseDistortion’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = BilinearReverseDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.DePolarDistortion... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = DePolarDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.PolarDistortion... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = PolarDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.PolynomialDistortion... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = PolynomialDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DistortImageMethod.ShepardsDistortion... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DistortImageMethod t = ShepardsDistortion; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for DitherMethod.NoDitherMethod... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { DitherMethod t = NoDitherMethod; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for FilterTypes.KaiserFilter... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { FilterTypes t = KaiserFilter; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for FilterTypes.WelshFilter... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { FilterTypes t = WelshFilter; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for FilterTypes.ParzenFilter... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { FilterTypes t = ParzenFilter; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for FilterTypes.LagrangeFilter... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { FilterTypes t = LagrangeFilter; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for FilterTypes.BohmanFilter... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { FilterTypes t = BohmanFilter; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for FilterTypes.BartlettFilter... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { FilterTypes t = BartlettFilter; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for FilterTypes.SentinelFilter... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { FilterTypes t = SentinelFilter; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.PowEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = PowEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.LogEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = LogEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.ThresholdEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = ThresholdEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.ThresholdBlackEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = ThresholdBlackEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.ThresholdWhiteEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = ThresholdWhiteEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.GaussianNoiseEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = GaussianNoiseEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.ImpulseNoiseEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = ImpulseNoiseEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.LaplacianNoiseEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = LaplacianNoiseEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.MultiplicativeNoiseEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = MultiplicativeNoiseEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.PoissonNoiseEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = PoissonNoiseEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.UniformNoiseEvaluateOperator... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = UniformNoiseEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.CosineEvaluateOperator... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘CosineEvaluateOperator’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = CosineEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.SineEvaluateOperator... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘SineEvaluateOperator’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = SineEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickEvaluateOperator.AddModulusEvaluateOperator... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘AddModulusEvaluateOperator’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickEvaluateOperator t = AddModulusEvaluateOperator; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickFunction.ArcsinFunction... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘MagickFunction’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+conftest.c:12: error: expected ‘;’ before ‘t’
+conftest.c:12: error: ‘t’ undeclared (first use in this function)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickFunction t = ArcsinFunction; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickFunction.ArctanFunction... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘MagickFunction’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+conftest.c:12: error: expected ‘;’ before ‘t’
+conftest.c:12: error: ‘t’ undeclared (first use in this function)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickFunction t = ArctanFunction; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickFunction.PolynomialFunction... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘MagickFunction’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+conftest.c:12: error: expected ‘;’ before ‘t’
+conftest.c:12: error: ‘t’ undeclared (first use in this function)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickFunction t = PolynomialFunction; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for MagickFunction.SinusoidFunction... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘MagickFunction’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+conftest.c:12: error: expected ‘;’ before ‘t’
+conftest.c:12: error: ‘t’ undeclared (first use in this function)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { MagickFunction t = SinusoidFunction; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for ImageLayerMethod.FlattenLayer... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { ImageLayerMethod t = FlattenLayer; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for ImageLayerMethod.MergeLayer... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { ImageLayerMethod t = MergeLayer; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for ImageLayerMethod.MosaicLayer... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { ImageLayerMethod t = MosaicLayer; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for ImageLayerMethod.TrimBoundsLayer... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { ImageLayerMethod t = TrimBoundsLayer; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for VirtualPixelMethod.HorizontalTileVirtualPixelMethod... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { VirtualPixelMethod t = HorizontalTileVirtualPixelMethod; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for VirtualPixelMethod.VerticalTileVirtualPixelMethod... -------------------- yes
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { VirtualPixelMethod t = VerticalTileVirtualPixelMethod; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for VirtualPixelMethod.HorizontalTileEdgeVirtualPixelMethod... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘HorizontalTileEdgeVirtualPixelMethod’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { VirtualPixelMethod t = HorizontalTileEdgeVirtualPixelMethod; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for VirtualPixelMethod.VerticalTileEdgeVirtualPixelMethod... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘VerticalTileEdgeVirtualPixelMethod’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { VirtualPixelMethod t = VerticalTileEdgeVirtualPixelMethod; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_enum_value: checking for VirtualPixelMethod.CheckerTileVirtualPixelMethod... -------------------- no
+
+"cc -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp   -c conftest.c"
+conftest.c: In function ‘main’:
+conftest.c:12: error: ‘CheckerTileVirtualPixelMethod’ undeclared (first use in this function)
+conftest.c:12: error: (Each undeclared identifier is reported only once
+conftest.c:12: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include <assert.h>
+ 2: #include <ctype.h>
+ 3: #include <stdio.h>
+ 4: #include <stdlib.h>
+ 5: #include <math.h>
+ 6: #include <time.h>
+ 7: #include <stdint.h>
+ 8: #include <sys/types.h>
+ 9: #include <wand/MagickWand.h>
+10: 
+11: /*top*/
+12: int main() { VirtualPixelMethod t = CheckerTileVirtualPixelMethod; t = t; return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for ruby/io.h... -------------------- no
+
+"cc -E -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+conftest.c:1:21: error: ruby/io.h: No such file or directory
+checked program was:
+/* begin */
+1: #include <ruby/io.h>
+/* end */
+
+--------------------
+
+have_func: checking for rb_frame_this_func() in ruby.h,rubyio.h... -------------------- yes
+
+"cc -o conftest -I. -I/usr/lib/ruby/1.8/i486-linux -I.  -I/usr/include/ImageMagick  -I/usr/include/ImageMagick -fopenmp conftest.c  -L. -L/usr/lib  -L/usr/lib -Wl,-Bsymbolic-functions -L/usr/lib/X11 -lfreetype -lz    -L/usr/lib -lMagickCore -lMagickCore  -lruby1.8-static -lMagickCore  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: #include <rubyio.h>
+3: 
+4: /*top*/
+5: int main() { return 0; }
+6: int t() { void ((*volatile p)()); p = (void ((*)()))rb_frame_this_func; return 0; }
+/* end */
+
+--------------------
+
+
+
+======================================================================
+Mon 26Oct09 18:14:26
+This installation of RMagick 2.12.2 is configured for
+Ruby 1.8.7 (i486-linux) and ImageMagick 6.4.5 Q16 
+======================================================================
+
+
