@@ -12,9 +12,9 @@
 ActiveRecord::Schema.define(:version => 20091025174115) do
 
   create_table "activities", :force => true do |t|
-    t.integer  "user_id",    :limit => 10
+    t.integer  "user_id"
     t.string   "action",     :limit => 50
-    t.integer  "item_id",    :limit => 10
+    t.integer  "item_id"
     t.string   "item_type"
     t.datetime "created_at"
   end
